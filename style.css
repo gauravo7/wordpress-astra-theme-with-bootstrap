@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url("img/new.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+
+
+.padding{
+    padding-top: 900px;
+}
+#divi{
+    height: 3px;
+    width: 100%;
+    background-color: red;
+}
+
+#big{
+    font-size: 25px;
+    
+}
+.color{
+    background-color: #019498;
+}
+
+
+.card{
+    padding : 0px;
+     }
+
+     
+a:hover{
+    font-size: 20px;
+    color: red; 
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.animation{
+    animation: a1 1s  linear;
+    position: relative;
+}
+@keyframes a1 {
+    from{
+        top: 0px; left: -500px;
+        
+    }
+    to{
+        
+        top: 0px; left: 0px;
+    }
+}
+.animation2{
+    animation: a2 1s  linear;
+    position: relative;
+}
+@keyframes a2 {
+    from{
+        top: 0px; right: -900px;
+        
+    }
+    to{
+        
+        top: 0px; right: 0px;
+    }
+}
+.animation3{
+    animation: a3 1s  linear;
+    position: relative;
+}
+@keyframes a3 {
+    from{
+        font-size: 0px;
+        
+    }
+    to{
+        
+        font-size: 10px;
+    }
+}
+
+.img{
+
+    background-image: url("img/istockphoto-1188168938-612x612-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.black{
+    background-color: #191919;
+}
