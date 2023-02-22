@@ -71,6 +71,21 @@ a{
         top: 0px; right: 0px;
     }
 }
+.animation4{
+    animation: a4 1s  forwards;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes a4 {
+    from{
+        top: 0px; right: -900px;
+        
+    }
+    to{
+        
+        top: 0px; right: 0px;
+    }
+}
 .animation3{
     animation: a3 1s  linear;
     position: relative;
@@ -93,6 +108,39 @@ a{
     background-size: 100% 100%;
     
 }
+.img2{
+
+    background-image: url("img/bgimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
 .black{
     background-color: #191919;
 }
+
+.blue{
+    background-color: #80BFBF;
+}
+
+
+
+.stroke{
+    color: black;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+.stroke2{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+.stroke3{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: black;
+  }
