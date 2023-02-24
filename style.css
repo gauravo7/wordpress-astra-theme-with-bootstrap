@@ -100,6 +100,21 @@ a{
         font-size: 10px;
     }
 }
+.animationtop{
+    animation: atop 1s  linear;
+    position: relative;
+}
+@keyframes atop {
+    from{
+        bottom: 500px;
+        
+    }
+    to{
+        
+        bottom: 0px;
+        
+            }
+}
 
 .img{
 
@@ -148,4 +163,8 @@ a{
 
 #colorwhite{
     background-color: rgba(0,0,255, 0.2);
+}
+
+.colorr{
+    background-color: #019498;
 }
