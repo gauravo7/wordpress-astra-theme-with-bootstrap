@@ -144,3 +144,8 @@ a{
     -webkit-text-stroke-width: 6px;
     -webkit-text-stroke-color: black;
   }
+
+
+#colorwhite{
+    background-color: rgba(0,0,255, 0.2);
+}
